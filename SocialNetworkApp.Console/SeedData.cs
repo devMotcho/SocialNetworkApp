@@ -24,9 +24,9 @@ namespace SocialNetworkApp.Console
             PostList = new List<Post>
             {
                 new Post (1, "Testing", "Hello World, Hello Social Networking App"),
-                new Post (1, "O aluno a36919 merece um 20.", "Este post serve apenas para dizer que o aluno merece um 20 a DA."),
-                new Post (1, "As aulas de DA são uteis", "Acredito que as aulas de DA são uteis para o futuro dos alunos."),
-                new Post (1, "Test", "Hello testing"),
+                new Post (1, "Testing 2.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."),
+                new Post (1, "Testing 3", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."),
+                new Post (1, "Testing 4", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."),
             };
 
             // Initialize Tags
@@ -48,7 +48,7 @@ namespace SocialNetworkApp.Console
             CommentList = new List<Comment>
             {
                 new Comment(1, 1, "Hello World!"),
-                new Comment(1, 1, "Hello World é tem um significado profundo na programação."),
+                new Comment(1, 1, "Hello World tem um significado profundo na programação."),
             };
 
             UserList = new List<User>
@@ -59,8 +59,8 @@ namespace SocialNetworkApp.Console
 
             ProfileList = new List<Profile>
             {
-                new Profile(2, "Bernardo", "Fernandes", "Um belo moço", null),
-                new Profile(3, "Outro", "Macaco", "Um belo macaco", null),
+                new Profile(2, "Bernardo", "Fernandes", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", null),
+                new Profile(3, "Judite", "Soares", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", null),
             };
 
             Friendships = new List<Friendship>
